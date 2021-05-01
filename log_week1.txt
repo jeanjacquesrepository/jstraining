@@ -1,2 +1,6 @@
-log week1
 
+REPO GIT
+
+Questions:
+
+j'ai du mal à éditer les fichiers de config Git car ça lance automatiquement VI
