@@ -1,6 +1,16 @@
 
-REPO GIT
+
+regarder les exercices
+lire sur la manipulation du DOM avec JS
+trouver les solutions aux exercices
+setup git
+creation repo github
+lecture sur git et githut
+experimentations avec git github
+synchro git github
+
 
 Questions:
 
 j'ai du mal à éditer les fichiers de config Git car ça lance automatiquement VI
+est-ce que l'adresse email utilisée pour les commits de git est publique?
