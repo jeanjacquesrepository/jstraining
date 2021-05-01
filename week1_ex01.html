@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 1 - Exercice1</title>
+</head>
+<body>
+<h1>Exercice 1</h1>
+<p>Ecrire le mot "Hello world" dans la balise qui a l'id "unText"</p>
+    <div>
+        <p id="unText"></p>
+    </div>
+    <script>
+        var paragraph = document.getElementById("unText");
+        var text = document.createTextNode("Hello world");
+        paragraph.appendChild(text);
+
+                /*I don't understand why when I look at the source code of the page
+        I can't see the result. In order to see the result I need to inspect the page
+        */
+        
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 1 - Exercice5</title>
+</head>
+<body>
+<h1>Exercice 5</h1>
+<p>Créer l'exercice 6 (sous la même forme que les autres exercices => 
+    balise DIV puis P) et ecrire le texte suivant dans la balise p :
+     "Récupérer tous les élements P contenu dans ma page et les afficher dans un console.log"</p>
+ 
+    <div id="makeMeYellow">
+        <p id="unText">Récupérer tous les élements P contenu dans ma page et les afficher dans un console.log</p>
+ 
+    </div>
+    <script>
+   
+        
+        console.log(new Date());
+       
+        var result = document.getElementsByTagName("p")[0].innerHTML;
+
+        console.log(result);
+
+   
+ </script>
+    
+</body>
+</html>
